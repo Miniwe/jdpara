@@ -17,9 +17,9 @@ related: "[[структура]]"
 |---|---|---|
 | [[Assets/README\|Assets]] | изображения и вложения, встраиваемые в заметки | Settings → Files & Links → Default location for new attachments: `(R) Служебные/Assets` |
 | [[Audio/README\|Audio]] | голосовые заметки/аудиозаписи | папка назначения для плагина AI Audio Transcription & Summary |
-| [[copilot/README\|copilot]] | служебные данные плагина Copilot: история диалогов, кастомные промпты, память | путь задаётся в настройках плагина Copilot, см. [[(R) Ресурсы/Настройка Obsidian|Настройка Obsidian]] |
+| [[copilot/README\|copilot]] | служебные данные плагина Copilot: история диалогов, кастомные промпты, память | путь задаётся в настройках плагина Copilot, см. [[03 Настройка Obsidian|Настройка Obsidian]] |
 | [[Шаблоны/README\|Шаблоны]] | шаблоны заметок (Templates / Daily notes) | Settings → Templates → Template folder: `(R) Служебные/Шаблоны`; Daily notes → Template file |
 
 Подробности по каждому плагину (что именно включать, какие значения
-ставить) — в [[(R) Ресурсы/Настройка Obsidian|Настройка Obsidian]].
+ставить) — в [[03 Настройка Obsidian|03 Настройка Obsidian]].
 Этот файл — только про назначение папок, не про сами настройки плагина.
