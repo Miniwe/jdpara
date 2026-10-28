@@ -6,65 +6,65 @@ tags: [moc/inbox]
 
 # 📦 JDPARA
 
-Самодостаточный пример хранилища, построенного по методологии из
-[[(R) Ресурсы/00 Фундамент структуры ведения проекта|Фундамент структуры ведения проекта]]
-(Johnny.Decimal + P.A.R.A. + MOC, с правилами для ИИ-агента). Всё внутри
-этой папки — **тестовые данные**: демо-проекты, демо-вопросы, демо-дни
-журнала. Ничего из настоящего рабочего хранилища сюда не копировалось.
+A self-contained example vault built on the methodology from
+[[(R) Resources/00 Foundation of project structure|Foundation of project structure]]
+(Johnny.Decimal + P.A.R.A. + MOC, with rules for an AI agent). Everything
+inside this folder is **test data**: demo projects, demo questions, demo
+journal days. Nothing from an actual working vault was copied in here.
 
-## Как использовать
+## How to use it
 
-**Вариант А — как справочник внутри текущего vault.** Оставить папку
-здесь и открывать файлы через обычную навигацию Obsidian — все
-вики-ссылки внутри `JDPARA` замкнуты на саму папку и резолвятся
-корректно независимо от остального хранилища.
+**Option A — as a reference inside your current vault.** Leave the
+folder here and open files through normal Obsidian navigation — every
+wikilink inside `JDPARA-EN` is self-contained within the folder
+and resolves correctly regardless of the rest of the vault.
 
-**Вариант Б — как отдельный vault, переданный кому-то другому.**
-Скопировать папку `JDPARA` целиком и открыть её в Obsidian как
-новый vault (`Open folder as vault`, указав саму `JDPARA`, а не её
-родителя). Все пути внутри — относительные к этой папке, поэтому она не
-тянет за собой зависимости из остального `LifeTracker`.
+**Option B — as a standalone vault, handed to someone else.** Copy the
+whole `JDPARA-EN` folder and open it in Obsidian as a new vault
+(`Open folder as vault`, pointing at `JDPARA-EN` itself, not its
+parent). Every path inside is relative to this folder, so it carries no
+dependencies on the rest of `LifeTracker`.
 
-## Что внутри
+## What's inside
 
 ```
-README.md                          ← этот файл
-структура.md                       ← короткая карта устройства (читать вторым)
-Фокус.md                           ← живой дашборд «что в фокусе / что важно» (тестовые данные)
-Сводка задач.md                    ← живой агрегатор открытых задач (тестовые данные)
-Канбан-доска.md                    ← ручная доска верхнего уровня (тестовые данные)
-(P) Проекты/
-  01 Пример зрелого проекта/       ← полный профиль: README, CLAUDE, вопросы, решения, источники
-  02 Пример простого проекта/      ← минимальный профиль: README + плоский список задач
-(R) Ресурсы/
-  Фундамент структуры ведения проекта.md   ← методология, откуда всё это взято
-  Маштабирование фундамента.md             ← перенос на несколько проектов и на ИИ-агентов
-  Теги, типы и статусы.md                  ← справочник допустимых значений frontmatter
-  Настройка Obsidian.md                    ← плагины и настройки — как воссоздать окружение с нуля
-  _шаблоны/                                ← шаблоны README/CLAUDE/вопроса/решения
-(A) Деятельность/                  ← PARA: Areas — конвейер вне рамок одного проекта
-  00 Входящее/, 10 Идеи/, 20 Вопросы/, 30 Решения/, 40 Эксперименты/
-(A) Журнал/
-  2026-09-19.md                     ← пример дня
-(a) Архив/                         ← PARA: Archives — куда переезжает завершённое
-  Проекты/, Вопросы/, Эксперименты/, Журнал/
-(R) Служебные/                     ← техническая инфраструктура, вне P.A.R.A.
-  Assets/, Audio/, copilot/, Шаблоны/
+README.md                          ← this file
+structure.md                       ← a short map of how it's organized (read second)
+Focus.md                           ← live dashboard "what's in focus / what matters" (test data)
+Task summary.md                    ← live aggregator of open tasks (test data)
+Kanban board.md                    ← manual top-level board (test data)
+(P) Projects/
+  01 Example of a mature project/  ← full profile: README, CLAUDE, questions, decisions, sources
+  02 Example of a simple project/  ← minimal profile: README + flat task list
+(R) Resources/
+  00 Foundation of project structure.md   ← the methodology all of this is built on
+  01 Scaling the foundation.md            ← scaling to several projects and to AI agents
+  02 Tags, types and statuses.md          ← reference of allowed frontmatter values
+  03 Obsidian setup.md                    ← plugins and settings — how to recreate the environment from scratch
+  _templates/                             ← templates for README/CLAUDE/question/decision
+(A) Areas/                         ← PARA: Areas — a pipeline outside the scope of any single project
+  00 Inbox/, 10 Ideas/, 20 Questions/, 30 Decisions/, 40 Experiments/
+(A) Journal/
+  2026-09-19.md                     ← example day
+(a) Archive/                       ← PARA: Archives — where finished work moves
+  Projects/, Questions/, Experiments/, Journal/
+(R) Utility/                       ← technical infrastructure, outside P.A.R.A.
+  Assets/, Audio/, copilot/, Templates/
 ```
 
-## С чего начать чтение
+## Where to start reading
 
-1. [[структура]] — карта за одну страницу
-2. [[(R) Ресурсы/00 Фундамент структуры ведения проекта|Фундамент структуры ведения проекта]] — почему структура именно такая
-3. [[(P) Проекты/01 Пример зрелого проекта/README|Пример зрелого проекта]] — как это выглядит в работе
-4. [[Фокус]] и [[Сводка задач]] — как дашборды читают проекты автоматически
-5. [[(A) Деятельность/README|(A) Деятельность]] — тот же конвейер (идея → вопрос → решение), но вне рамок одного проекта
-6. [[(a) Архив/README|(a) Архив]] — куда и когда переносится завершённое
-7. [[(R) Служебные/README|(R) Служебные]] — назначение Assets/Audio/copilot/Шаблоны и связанные настройки
+1. [[structure]] — a one-page map
+2. [[(R) Resources/00 Foundation of project structure|Foundation of project structure]] — why the structure looks the way it does
+3. [[(P) Projects/01 Example of a mature project/README|Example of a mature project]] — what it looks like in practice
+4. [[Focus]] and [[Task summary]] — how dashboards read projects automatically
+5. [[(A) Areas/README|(A) Areas]] — the same pipeline (idea → question → decision), but outside the scope of a single project
+6. [[(a) Archive/README|(a) Archive]] — where and when finished work gets moved
+7. [[(R) Utility/README|(R) Utility]] — the purpose of Assets/Audio/copilot/Templates and related settings
 
-## Соглашение о frontmatter
+## Frontmatter convention
 
-Ключи полей — латиницей (`status`, `priority`, `id`), значения — по-русски
-(`status: открыт`, а не `status: open`). Так же можно использовать русский
-ключ (`приоритет`), если он уже устоялся в проекте — важно не смешивать
-оба варианта одного и того же поля внутри одного проекта.
+Field keys are in Latin/English (`status`, `priority`, `id`); values are
+plain language. A project can also settle on its own alias for a key, as
+long as it's used consistently — what matters is not mixing two
+spellings of the same field inside one project.
